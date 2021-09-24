@@ -2,4 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* HEADER */
+
+header {
+    height: 100px;
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.nav {
+    width: 30%;
+}
+
+.logo {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 40px;
+}
+
+li > a {
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 500;
+    color: black;
 }
