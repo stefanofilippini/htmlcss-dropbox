@@ -36,6 +36,10 @@
     padding-top: 20px;
 }
 
+.pt-10 {
+    padding-top: 10px;
+}
+
 .w-30 {
     width: 30%;
 }
@@ -50,9 +54,13 @@
 
 .button {
     padding: 10px;
-    background-color: blue;
+    background-color: #0161ff;
     color: white;
     text-decoration: none;
+}
+
+.link {
+    color: #0262ff;
 }
 
 /* HEADER */
@@ -79,6 +87,10 @@ header {
     vertical-align: middle;
 }
 
+a > img {
+    vertical-align: middle;
+}
+
 ul {
     vertical-align: middle;
     margin-block-start: 0;
@@ -87,7 +99,7 @@ ul {
     text-align: center;
 }
 
-li {
+header li {
     display: inline;
     vertical-align: middle;
     text-align: center;
@@ -103,7 +115,6 @@ li > a {
 }
 
 .hero {
-    position: relative;
     height: 880px;
     background-color: #b4d0e7;
 }
@@ -129,6 +140,8 @@ h1 {
     font-size: 50px;
 }
 
+/* Main content */
+
 h2 {
     margin-top: 100px;
     font-size: 50px;
@@ -141,13 +154,91 @@ label {
 
 .col {
     width: 30%;
-    height: 500px;
-    background-color: teal;
+    height: 1000px;
+    border:solid 1px #d0d0d3;
 }
 
 .col-mid {
     width: 30%;
     margin: 0 5%;
-    height: 500px;
-    background-color: teal;
+    height: 1000px;
+    border:solid 1px #d0d0d3;
+}
+
+.card {
+    padding: 30px;
+}
+
+.users {
+    text-align: center;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom:solid 1px #d0d0d3;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.time {
+    color: #637381;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card ul {
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card li {
+    text-align: left;
+    line-height: 20px;
+}
+
+.element {
+    display: inline-block;
+    width: 6%;
+    vertical-align: top;
+}
+
+.element-1 {
+    display: inline-block;
+    width: 6%;
+    vertical-align: top;
+    color: #0161ff;
+}
+
+.list-text {
+    display: inline-block;
+    width: 92%;
+}
+
+.card-button {
+    display: inline-block;
+    width: 100%;
+    margin: 50px auto 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.subtext {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+hr {
+    margin: 30px 0;
+    width: 18%;
+}
+
+.card-subtitle {
+    font-size: 18px;
 }
