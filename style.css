@@ -36,6 +36,10 @@
     margin-top: 50px;
 }
 
+.mt-100 {
+    margin-top: 100px;
+}
+
 .pt-50 {
     padding-top: 50px;
 }
@@ -52,6 +56,14 @@
     width: 30%;
 }
 
+.w-40 {
+    width: 40%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -65,11 +77,21 @@
 }
 
 .button {
+    display: inline-block;
     padding: 10px;
     background-color: #0161ff;
     color: white;
     text-decoration: none;
     text-align: center;
+}
+
+.button-1 {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px black;
 }
 
 .link {
@@ -258,4 +280,10 @@ hr {
 
 .enterprise {
     border:solid 1px #d0d0d3;
+}
+
+.section-subtext {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
 }
