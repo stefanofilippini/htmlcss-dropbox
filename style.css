@@ -155,6 +155,11 @@
     text-align: right;
 }
 
+hr {
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
 /* HEADER */
 
 header {
@@ -327,7 +332,7 @@ label {
     width: 18%;
 }
 
-.card-subtitle {
+.card-subtitle{
     font-size: 18px;
 }
 
@@ -406,8 +411,6 @@ label {
 .hr-1 {
     width: 10%;
     border-top: solid 1px #dedee0;
-    border-bottom: 0px;
-    border-left: 0px;
 }
 
 .try {
@@ -419,7 +422,39 @@ label {
     margin-top: 35px;
     margin-bottom: 35px;
     border-top: solid 1px #dcdcde;
-    border-bottom: 0px;
-    border-left: 0px;
 }
 
+footer {
+    background-color: black;
+}
+
+.footer-col {
+    width: 20%;
+    border:solid 1px black;
+    height: 300px;
+}
+
+.List-title {
+    color: white;
+    font-size: 23px;
+}
+
+footer li {
+    list-style: none;
+    line-height: 30px;
+    text-align: left;
+}
+
+footer li a {
+    color: white;
+}
+
+footer hr {
+    width: 10%;
+    border-top: solid 1px white;
+}
+
+.language {
+    color: #999999;
+    margin-bottom: 50px;
+}
