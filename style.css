@@ -40,6 +40,10 @@
     margin-top: 100px;
 }
 
+.pt-100 {
+    padding-top: 100px;
+}
+
 .pt-50 {
     padding-top: 50px;
 }
@@ -96,6 +100,14 @@
 
 .link {
     color: #0262ff;
+}
+
+.h-1000{
+    height: 1000px;
+}
+
+.borded {
+    border:solid 1px #d0d0d3;
 }
 
 /* HEADER */
@@ -189,15 +201,11 @@ label {
 
 .col {
     width: 30%;
-    height: 1000px;
-    border:solid 1px #d0d0d3;
 }
 
 .col-mid {
     width: 30%;
     margin: 0 5%;
-    height: 1000px;
-    border:solid 1px #d0d0d3;
 }
 
 .card {
@@ -286,4 +294,9 @@ hr {
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: 600;
 }
